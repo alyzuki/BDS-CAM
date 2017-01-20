@@ -2,5 +2,9 @@
     {
         "merged": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
         "source": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-v23/abc_control_background_material.xml"
+    },
+    {
+        "merged": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/drawable-v23/abc_control_background_material.xml"
     }
 ]

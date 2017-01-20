@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.bds.zuki.bds_cam.MainActivity"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:text="@string/user"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView2" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:ems="10"
+                    android:id="@+id/editUser"
+                    android:textAlignment="viewStart"
+                    tools:ignore="LabelFor"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:width="150dp" />
+
+                <TextView
+                    android:text="@string/password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView3" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/editPass"
+                    tools:ignore="LabelFor"
+                    android:width="150dp"
+                    android:gravity="center_vertical|center" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:background="@android:color/holo_blue_bright"
+                    android:layout_height="70dp">
+
+                    <TextView
+                        android:text="Login with"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:id="@+id/textView"
+                        android:layout_weight="1"
+                        android:textAlignment="viewStart"
+                        tools:gravity="center_vertical"
+                        tools:ignore="HardcodedText,RtlSymmetry"
+                        android:paddingStart="16dp" />
+
+                    <ImageButton
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bds_social_fb"
+                        android:id="@+id/btn_login_fb"
+                        android:layout_weight="1"
+                        tools:ignore="ContentDescription"
+                        android:background="@android:color/holo_blue_bright"
+                        android:layout_width="match_parent" />
+
+                    <ImageButton
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:srcCompat="@drawable/bds_social_g_plus"
+                        android:id="@+id/btn_login_gplus"
+                        android:layout_weight="1"
+                        android:contentDescription=""
+                        tools:ignore="ContentDescription"
+                        android:background="@android:color/holo_blue_bright" />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

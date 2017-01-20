@@ -35,13 +35,15 @@
                     android:id="@+id/textView2" />
 
                 <EditText
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPersonName"
                     android:ems="10"
-                    android:id="@+id/editText3"
+                    android:id="@+id/editUser"
                     android:textAlignment="viewStart"
-                    tools:ignore="LabelFor" />
+                    tools:ignore="LabelFor"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:width="150dp" />
 
                 <TextView
                     android:text="@string/password"
@@ -50,12 +52,14 @@
                     android:id="@+id/textView3" />
 
                 <EditText
-                    android:layout_width="wrap_content"
+                    android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
                     android:ems="10"
-                    android:id="@+id/editText4"
-                    tools:ignore="LabelFor" />
+                    android:id="@+id/editPass"
+                    tools:ignore="LabelFor"
+                    android:width="150dp"
+                    android:gravity="center_vertical|center" />
 
                 <RelativeLayout
                     android:layout_width="match_parent"
@@ -66,13 +70,21 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_alignParentBottom="true"
-                        android:layout_alignParentStart="true"
-                        android:layout_marginStart="32dp">
+                        android:paddingBottom="0dp"
+                        android:padding="0dp"
+                        android:paddingEnd="0dp"
+                        android:paddingLeft="0dp"
+                        android:paddingRight="0dp"
+                        android:paddingStart="0dp"
+                        android:paddingTop="0dp"
+                        android:minHeight="65dp"
+                        android:weightSum="1">
 
                         <LinearLayout
                             android:orientation="horizontal"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent">
+                            android:background="@android:color/holo_blue_bright"
+                            android:layout_height="70dp">
 
                             <TextView
                                 android:text="Login with"
@@ -81,21 +93,28 @@
                                 android:id="@+id/textView"
                                 android:layout_weight="1"
                                 android:textAlignment="viewStart"
-                                tools:gravity="center_vertical" />
+                                tools:gravity="center_vertical"
+                                tools:ignore="HardcodedText,RtlSymmetry"
+                                android:paddingStart="16dp" />
+
+                            <ImageButton
+                                android:layout_height="match_parent"
+                                app:srcCompat="@drawable/bds_social_fb"
+                                android:id="@+id/btn_login_fb"
+                                android:layout_weight="1"
+                                tools:ignore="ContentDescription"
+                                android:background="@android:color/holo_blue_bright"
+                                android:layout_width="match_parent" />
 
                             <ImageButton
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                app:srcCompat="@android:drawable/btn_dialog"
-                                android:id="@+id/imageButton3"
-                                android:layout_weight="1" />
-
-                            <ImageButton
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                app:srcCompat="@android:drawable/btn_dialog"
-                                android:id="@+id/imageButton4"
-                                android:layout_weight="1" />
+                                android:layout_height="match_parent"
+                                app:srcCompat="@drawable/bds_social_g_plus"
+                                android:id="@+id/btn_login_gplus"
+                                android:layout_weight="1"
+                                android:contentDescription=""
+                                tools:ignore="ContentDescription"
+                                android:background="@android:color/holo_blue_bright" />
                         </LinearLayout>
 
                     </LinearLayout>

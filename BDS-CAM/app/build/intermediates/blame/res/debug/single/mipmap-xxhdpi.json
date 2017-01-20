@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/ic_launcher.png",
         "source": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
     }

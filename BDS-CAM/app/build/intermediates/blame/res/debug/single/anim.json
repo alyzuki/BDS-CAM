@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_fade_out.xml"
+    },
+    {
         "merged": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
         "source": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
     },
@@ -12,12 +16,28 @@
         "source": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_slide_in_bottom.xml"
     },
     {
+        "merged": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_fade_in.xml"
+    },
+    {
         "merged": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
         "source": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_slide_out_top.xml"
     },
     {
         "merged": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
         "source": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_popup_enter.xml"
     },
     {
         "merged": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
@@ -28,12 +48,32 @@
         "source": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_slide_out_bottom.xml"
     },
     {
+        "merged": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_slide_out_top.xml"
+    },
+    {
         "merged": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
         "source": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_fade_in.xml"
     },
     {
         "merged": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
         "source": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/media/private/OWN_PORJECT/BDS-CAM/BDS-CAM/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/res/anim/abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "/home/zuki/AndroidStudioProjects/BDS-CAM/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
